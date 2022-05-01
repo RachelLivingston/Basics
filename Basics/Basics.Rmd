@@ -1,0 +1,82 @@
+Copy and paste the following to the gray box to install the more common packages. To run code, you can either click "CTRL + Enter" or choose "Run in the top corner"  
+
+  install.packages("ggplot2")
+  library(ggplot2)
+  install.packages("tidyr")
+  library(tidyr)
+  install.packages("dplyr")
+  library(dplyr)
+  install.packages("tidyverse")
+  library(tidyverse)
+  install.packages("Basics")
+  library(Basics)
+  
+``` {r, Install packages}
+
+  install.packages("ggplot2")
+  library(ggplot2)
+  install.packages("tidyr")
+  library(tidyr)
+  install.packages("dplyr")
+  library(dplyr)
+  install.packages("tidyverse")
+  library(tidyverse)
+  install.packages("Basics")
+  library(Basics)
+```
+  
+You now have the basic packages installed- learn more about these packages by running function
+
+Step 1 will give more information regarding the package
+Step 2 will give you an example and result of what happens when running the code
+
+
+
+Step 1: copy and paste function to the below box: ggplot2Basics()
+
+Step 2: copy and paste function to the below box: 
+  ggplot(mtcars, aes(x=hp, y=mpg)) +
+    geom_point()
+    
+
+Step 3: change the graph from a dot graph to a line graph by replacing
+"geom_point" with "geom_line". 
+
+
+``` {r, ggplot2Basics}
+
+
+  
+```
+
+Step 1: copy and paste function to the below box: tidyrBasics()
+
+Step 2: copy and paste function to the below box to see what they do: 
+mtcars %>% gather(mpg, hp)
+mtcars %>% separate()
+mtcars %>% spread()
+
+
+``` {r, tidyrBasics}
+
+  
+```
+
+Step 1: copy and paste function to the below box: dplyrBasics()
+
+Step 2: copy and paste function to the below box to see what they do: 
+mtcars %>% mutate(mph,wt/hp)
+mtcars %>% rownames_to_column() %>%
+select(rowname, "^M")
+mtcars %>% filter(mph= 21)
+mtcars %>% summarize(mean=mean(wt))
+mtcars %>% arrange(desc(wt))
+
+
+
+``` {r, dplyrBasics}
+
+
+
+  
+```

@@ -1,0 +1,15 @@
+Package: Basics
+Type: Package
+Title: A package to learn and load all common starter packages.
+Version: 0.1.0
+Author: Rachel Livingston
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: this package known as "Basics" is to give the basic fundamentals 
+readily available in one package as opposed to having to install multiple 
+different common packages that you may or may not know are needed for starting 
+R coding and used most frequently. These are ggplot2, tidyr, and dplyr. This package also will give a brief understanding of each package 
+at the beginning with what they are used for.
+License: R
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/RachelLivingston/Basics
